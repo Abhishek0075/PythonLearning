@@ -1,0 +1,4 @@
+If we need help just run in terminal :
+    python3
+    then the function to know about
+    press enter to get more help
