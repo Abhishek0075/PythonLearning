@@ -7,7 +7,8 @@
         # as the cursor is present at the end
 
 with open(r"C:\Users\abhir\OneDrive\Documents\GitHub\PythonLearning\files\newfile.txt","a+") as myfile:
-        myfile.write("\nOkra")
         myfile.seek(0)
         content=myfile.read()
+        print(content)
+        myfile.write("\n"+content)
 print(content)
